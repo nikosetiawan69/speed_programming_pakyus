@@ -1,15 +1,13 @@
 class Film {
   final String title;
-  final String director;
-  final int year;
-  final String poster;
+  final String genre;
   final String description;
+  final String image;
 
-  const Film({
+  Film({
     required this.title,
-    required this.director,
-    required this.year,
-    required this.poster,
+    required this.genre,
     required this.description,
+    required this.image,
   });
 }

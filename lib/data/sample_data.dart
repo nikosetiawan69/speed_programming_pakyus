@@ -1,30 +1,46 @@
 import 'package:speed_programming_test/model/film.dart';
 
-const List<Film> sampleFilms = [
+final List<Film> sampleFilms = [
   Film(
-    title: "Inception",
-    director: "Christopher Nolan",
-    year: 2010,
-    poster: "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
-    description:
-        "A thief who steals corporate secrets through the use of dream-sharing technology "
-        "is given the inverse task of planting an idea into the mind of a CEO.",
+    title: 'The Conjuring',
+    genre: 'Horror, Mystery',
+    description: 'Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.',
+    image: 'assets/images/image.png',
+  ),
+Film(
+    title: 'Friday the 13th',
+    genre: 'Horror, Slasher',
+    description: 'A group of teenagers face the relentless killer Jason Voorhees at the eerie Camp Crystal Lake.',
+    image: 'assets/images/friday.jpg',
   ),
   Film(
-    title: "Interstellar",
-    director: "Christopher Nolan",
-    year: 2014,
-    poster: "https://m.media-amazon.com/images/I/91kFYg4fX3L._AC_SL1500_.jpg",
-    description:
-        "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    title: 'Halloween',
+    genre: 'Horror, Thriller',
+    description: 'A masked figure named Michael Myers stalks and kills teenagers in the small town of Haddonfield.',
+    image: 'assets/images/hallowen.jpg',
   ),
   Film(
-    title: "The Matrix",
-    director: "Lana Wachowski, Lilly Wachowski",
-    year: 1999,
-    poster: "https://m.media-amazon.com/images/I/51vpnbwFHrL._AC_.jpg",
-    description:
-        "A computer hacker learns from mysterious rebels about the true nature of his reality "
-        "and his role in the war against its controllers.",
+    title: 'Terrifier 3',
+    genre: 'Horror, Slasher',
+    description: 'The terrifying clown Art the Clown returns to unleash chaos and gore during the holiday season.',
+    image: 'assets/images/teriffier.jpg',
+  ),
+  Film(
+    title: 'Malam Satu Suro',
+    genre: 'Horror, Supernatural',
+    description: 'A chilling tale of supernatural events unfolding on the first night of the Suro month in Javanese tradition.',
+    image: 'assets/images/satusuro.jpg',
+  ),
+  Film(
+    title: 'Bernapas dalam Lumpur',
+    genre: 'Horror, Drama',
+    description: 'A haunting story of a woman trapped in a nightmarish swamp with sinister forces at play.',
+    image: 'assets/images/bernapas.jpg',
+  ),
+  Film(
+    title: 'Texas Chainsaw 3D',
+    genre: 'Horror, Slasher',
+    description: 'A young woman discovers the terrifying legacy of the cannibalistic Leatherface family.',
+    image: 'assets/images/texas.jpg',
   ),
 ];
